@@ -1,6 +1,11 @@
 <?php
 
+$cabines = 12;
+$alunos = 55;
 
+$alunos_por_viagem = $cabines - 1;
+$viagens = ceil($alunos / $alunos_por_viagem);
 
+echo $viagens . "\n"
 
 ?>
